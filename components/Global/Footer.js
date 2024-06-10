@@ -5,7 +5,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <footer className="bg-white py-20">
-      <ul className="flex justify-center items-center gap-36">
+      <ul className="flex flex-col justify-start mx-4 gap-16 sm:flex-row sm:justify-center sm:items-center sm:mx-0 sm:gap-36">
         <li>
           <Link href="/">
             <Image
@@ -16,26 +16,28 @@ const Footer = () => {
               quality={100}
               priority
               sizes={"100vw"}
-              
             />
           </Link>
         </li>
         <li>
-          <ul className="flex justify-center items-center text-gray-600 gap-4 text-lg">
-            <li> © 2024 - Powered by KRIGEN.AI</li>
-            <li className="hover:text-blue-500">
-              {" "}
-              <Link href="/Terms">Terms & Conditions</Link>
+          <ul className="flex flex-col justify-start items-start text-gray-600 gap-4 text-sm sm:flex-row sm:justify-center sm:items-center sm:text-base">
+            <li>
+              <span> © 2024 - Powered by KRIGEN.AI</span>
             </li>
-            <li>/</li>
-            <li className="hover:text-blue-500">
-              {" "}
-              <Link href="/Terms">Privacy Policy</Link>
-            </li>
-            <li>/</li>
-            <li className="hover:text-blue-500">
-              {" "}
-              <Link href="/Terms">Contact Us</Link>
+            <li>
+              <ul className="flex justify-center items-center gap-0 sm:gap-2">
+                <li className="hover:text-blue-500">
+                  <Link href="/Terms">Terms & Conditions</Link>
+                </li>
+                <li>/</li>
+                <li className="hover:text-blue-500">
+                  <Link href="/Terms">Privacy Policy</Link>
+                </li>
+                <li>/</li>
+                <li className="hover:text-blue-500">
+                  <Link href="/Terms">Contact Us</Link>
+                </li>
+              </ul>
             </li>
           </ul>
         </li>

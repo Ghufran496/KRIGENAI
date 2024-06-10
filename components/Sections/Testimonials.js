@@ -4,7 +4,7 @@ const Testimonials = () => {
   return (
     <>
       <section className="flex justify-center items-center bg-white flex-col gap-8 py-20 overflow-hidden">
-        <h1 className="text-7xl text-center font-semibold">
+        <h1 className="text-4xl text-center font-semibold sm:text-7xl">
           What our
           <span
             style={{
@@ -13,11 +13,11 @@ const Testimonials = () => {
               WebkitTextFillColor: "transparent",
             }}
           >
-            clients
+            {" "}clients
           </span>{" "}
           are saying
         </h1>
-        <h3 className="font-normal text-base text-black">
+        <h3 className="font-normal text-center text-sm text-black sm:text-base">
           Prioritize what is important like some of our other owners.
         </h3>
         <div className="">

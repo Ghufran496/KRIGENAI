@@ -5,7 +5,7 @@ const FrontComp = () => {
   return (
     <>
       <section className="flex justify-center items-center flex-col gap-8 py-16">
-        <h1 className="text-7xl text-center font-semibold">
+        <h1 className="text-5xl text-center font-semibold sm:text-7xl">
           Streamline with <br></br>
           <span
             style={{
@@ -18,7 +18,7 @@ const FrontComp = () => {
           </span>{" "}
           Marketing
         </h1>
-        <h3 className="font-semibold text-base text-gray-600">
+        <h3 className="font-semibold text-center text-base text-gray-600">
           #1 Software for Lead Automation & Conversion
         </h3>
         <div className="">

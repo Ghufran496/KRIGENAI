@@ -18,4 +18,18 @@
       transform: translateX(-30%);
     }
   }
-  
+
+
+  /* @media (max-width: 640px) { 
+
+    .imagecontainer {
+      display: flex;
+      flex-direction: column;
+      width: 300rem;
+      
+      
+    
+    }
+
+  }
+   */

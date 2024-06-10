@@ -11,8 +11,8 @@ import Icon9 from "../../images/icons/i9.webp"
 
 const ServicesGallery = () => {
   return (
-    <div className="bg-white grid grid-cols-3 px-12 gap-6 py-10">
-      <div className="flex justify-center items-center flex-col w-full h-80 gap-4 px-6 py-6 rounded-3xl" style={{ boxShadow: "0px 2px 30px 0px rgba(170, 63, 255, 0.2)" }}>
+    <div className="bg-white grid grid-cols-1 px-12 gap-6 py-10 sm:grid-cols-3">
+      <div className="flex justify-center items-center flex-col gap-4 px-6 py-6 rounded-3xl" style={{ boxShadow: "0px 2px 30px 0px rgba(170, 63, 255, 0.2)" }}>
       <Image
             src={Icon1}
             alt="Picture of Slack logo"
@@ -20,6 +20,7 @@ const ServicesGallery = () => {
             height={50}
             quality={100}
             sizes={"100vw"}
+            
           />
         <h1 className="text-2xl font-bold text-center">CRM & Sales Pipeline</h1>
         <h3 className=" text-gray-600 text-center">
@@ -27,7 +28,7 @@ const ServicesGallery = () => {
           Sales Pipeline. Never lose a contact again.
         </h3>
       </div>
-      <div className="flex justify-center items-center flex-col w-full h-80 gap-4 px-6 py-6 rounded-3xl" style={{ boxShadow: "0px 2px 30px 0px rgba(170, 63, 255, 0.2)" }}>
+      <div className="flex justify-center items-center flex-col gap-4 px-6 py-6 rounded-3xl" style={{ boxShadow: "0px 2px 30px 0px rgba(170, 63, 255, 0.2)" }}>
       <Image
             src={Icon2}
             alt="Picture of Slack logo"
@@ -44,7 +45,7 @@ const ServicesGallery = () => {
           funnels have never been easier.
         </h3>
       </div>
-      <div className="flex justify-center items-center flex-col w-full h-80 gap-4 px-6 py-6 rounded-3xl" style={{ boxShadow: "0px 2px 30px 0px rgba(170, 63, 255, 0.2)" }}>
+      <div className="flex justify-center items-center flex-col gap-4 px-6 py-6 rounded-3xl" style={{ boxShadow: "0px 2px 30px 0px rgba(170, 63, 255, 0.2)" }}>
       <Image
             src={Icon3}
             alt="Picture of Slack logo"
@@ -60,7 +61,7 @@ const ServicesGallery = () => {
         </h3>
       </div>
 
-      <div className="flex justify-center items-center flex-col w-full h-80 gap-4 px-6 py-6 rounded-3xl" style={{ boxShadow: "0px 2px 30px 0px rgba(170, 63, 255, 0.2)" }}>
+      <div className="flex justify-center items-center flex-col gap-4 px-6 py-6 rounded-3xl" style={{ boxShadow: "0px 2px 30px 0px rgba(170, 63, 255, 0.2)" }}>
       <Image
             src={Icon4}
             alt="Picture of Slack logo"
@@ -75,7 +76,7 @@ const ServicesGallery = () => {
           Sales Pipeline. Never lose a contact again.
         </h3>
       </div>
-      <div className="flex justify-center items-center flex-col w-full h-80 gap-4 px-6 py-6 rounded-3xl" style={{ boxShadow: "0px 2px 30px 0px rgba(170, 63, 255, 0.2)" }}>
+      <div className="flex justify-center items-center flex-col gap-4 px-6 py-6 rounded-3xl" style={{ boxShadow: "0px 2px 30px 0px rgba(170, 63, 255, 0.2)" }}>
       <Image
             src={Icon5}
             alt="Picture of Slack logo"
@@ -92,7 +93,7 @@ const ServicesGallery = () => {
           funnels have never been easier.
         </h3>
       </div>
-      <div className="flex justify-center items-center flex-col w-full h-80 gap-4px-6 py-6 rounded-3xl" style={{ boxShadow: "0px 2px 30px 0px rgba(170, 63, 255, 0.2)" }}>
+      <div className="flex justify-center items-center flex-col gap-4 px-6 py-6 rounded-3xl" style={{ boxShadow: "0px 2px 30px 0px rgba(170, 63, 255, 0.2)" }}>
       <Image
             src={Icon6}
             alt="Picture of Slack logo"
@@ -108,7 +109,7 @@ const ServicesGallery = () => {
         </h3>
       </div>
 
-      <div className="flex justify-center items-center flex-col w-full h-80 gap-4 px-6 py-6 rounded-3xl" style={{ boxShadow: "0px 2px 30px 0px rgba(170, 63, 255, 0.2)" }}>
+      <div className="flex justify-center items-center flex-col gap-4 px-6 py-6 rounded-3xl" style={{ boxShadow: "0px 2px 30px 0px rgba(170, 63, 255, 0.2)" }}>
       <Image
             src={Icon7}
             alt="Picture of Slack logo"
@@ -123,7 +124,7 @@ const ServicesGallery = () => {
           Sales Pipeline. Never lose a contact again.
         </h3>
       </div>
-      <div className="flex justify-center items-center flex-col w-full h-80 gap-4 px-6 py-6 rounded-3xl" style={{ boxShadow: "0px 2px 30px 0px rgba(170, 63, 255, 0.2)" }}>
+      <div className="flex justify-center items-center flex-col gap-4 px-6 py-6 rounded-3xl" style={{ boxShadow: "0px 2px 30px 0px rgba(170, 63, 255, 0.2)" }}>
       <Image
             src={Icon8}
             alt="Picture of Slack logo"
@@ -140,7 +141,7 @@ const ServicesGallery = () => {
           funnels have never been easier.
         </h3>
       </div>
-      <div className="flex justify-center items-center flex-col w-full h-80 gap-4 px-6 py-6 rounded-3xl" style={{ boxShadow: "0px 2px 30px 0px rgba(170, 63, 255, 0.2)" }}>
+      <div className="flex justify-center items-center flex-col gap-4 px-6 py-6 rounded-3xl" style={{ boxShadow: "0px 2px 30px 0px rgba(170, 63, 255, 0.2)" }}>
       <Image
             src={Icon9}
             alt="Picture of Slack logo"

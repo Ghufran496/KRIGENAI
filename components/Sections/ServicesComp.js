@@ -5,7 +5,7 @@ const ServicesComp = () => {
   return (
     <>
       <section className="flex justify-center items-center bg-white flex-col gap-8 py-20">
-        <h1 className="text-7xl text-center font-semibold">
+        <h1 className="text-5xl text-center font-semibold sm:text-7xl">
           <span
             style={{
               background: "linear-gradient(to right, #6557ff, #aa3fff 80%)",

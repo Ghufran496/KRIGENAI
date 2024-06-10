@@ -1,12 +1,11 @@
-import img1 from "../../images/backg.webp";
 import classes from "./BelowGallery.module.css";
 
 const BelowGallery = () => {
   return (
     <div className="bg-white py-14">
       <div className={classes.back}>
-        <h1 className=" text-4xl text-white font-bold text-center">Collaboration and Sharing</h1>
-        <h3 className="text-white text-base text-center">
+        <h1 className=" text-2xl text-white font-bold text-center sm:text-4xl">Collaboration and Sharing</h1>
+        <h3 className="text-white text-sm text-center sm:text-base">
           Share responsibilities, collaborate with team members, delegating
           tasks, leaving notes, and sharing files.
         </h3>

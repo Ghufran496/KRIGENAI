@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const PricingExtr = () => {
   return (
-    <div className="flex justify-center items-center gap-10">
+    <div className="flex flex-col justify-center items-center gap-10 sm:flex-row">
       <div className="flex flex-col gap-16 px-6 py-6 bg-white w-80 h-full rounded-2xl shadow-2xl shadow-zinc-400">
         <div className="flex flex-col gap-2">
           <h2 className="font-semibold text-lg">Essentials</h2>

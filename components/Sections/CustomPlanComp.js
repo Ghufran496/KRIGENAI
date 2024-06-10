@@ -4,8 +4,8 @@ import Image from "next/image";
 const CustomPlanComp = () => {
   return (
     <section className="py-24 px-6">
-      <div className="flex justify-center items-center flex-col gap-10 bg-slate-50 pt-20 mx-8 rounded-3xl">
-        <h1 className="text-7xl text-center font-semibold">
+      <div className="flex justify-center items-center flex-col gap-10 bg-slate-50 pt-20 rounded-3xl">
+        <h1 className="text-5xl text-center font-semibold sm:text-7xl">
           <span
             style={{
               background: "linear-gradient(to right, #6557ff, #aa3fff 80%)",
@@ -17,7 +17,7 @@ const CustomPlanComp = () => {
           </span>{" "}
           Lets Talk.
         </h1>
-        <h3 className="font-normal text-center text-base text-gray-600">
+        <h3 className="font-normal text-center text-sm text-gray-600 sm:text-base">
           Speak with a Strategy Expert & let us build your vision.
         </h3>
         <div className="">

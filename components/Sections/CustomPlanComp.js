@@ -1,4 +1,4 @@
-import sec2 from "../../images/sec2.JPEG";
+import sec2 from "../../images/sec2.jpeg";
 import Image from "next/image";
 
 const CustomPlanComp = () => {

@@ -1,4 +1,4 @@
-import Dash from "../../images/sec2.JPEG";
+import Dash from "../../images/sec2.jpeg";
 import Image from "next/image";
 import classes from "./ImageAppear.module.css"
 

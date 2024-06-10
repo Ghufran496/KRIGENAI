@@ -6,7 +6,7 @@ import Twilio from "../../images/Twilio.svg";
 import stripe from "../../images/stripe.webp";
 import shopify from "../../images/shopify.svg";
 import QuickBook from "../../images/QuickBook.svg";
-import Paypal from "../../images/Paypal.PNG";
+import Paypal from "../../images/Paypal.png";
 import openai from "../../images/openai.svg";
 
 import insta from "../../images/insta.webp";

@@ -1,12 +1,11 @@
-import ImageSlider from "../Extras/ImageSlider";
-import ImageAppear from "../Extras/ImageAppear";
+import TestimonialsSlider from "../Extras/TestiSlider";
 
-const FrontComp = () => {
+const Testimonials = () => {
   return (
     <>
-      <section className="flex justify-center items-center flex-col gap-8 py-16">
+      <section className="flex justify-center items-center bg-white flex-col gap-8 py-20 overflow-hidden">
         <h1 className="text-7xl text-center font-semibold">
-          Streamline with <br></br>
+          What our
           <span
             style={{
               background: "linear-gradient(to right, #6557ff, #aa3fff 80%)",
@@ -14,12 +13,12 @@ const FrontComp = () => {
               WebkitTextFillColor: "transparent",
             }}
           >
-            Automated
+            clients
           </span>{" "}
-          Marketing
+          are saying
         </h1>
-        <h3 className="font-semibold text-base text-gray-600">
-          #1 Software for Lead Automation & Conversion
+        <h3 className="font-normal text-base text-black">
+          Prioritize what is important like some of our other owners.
         </h3>
         <div className="">
           <button
@@ -29,11 +28,11 @@ const FrontComp = () => {
             GET STARTED
           </button>
         </div>
+
+        <TestimonialsSlider />
       </section>
-      <ImageSlider />
-      <ImageAppear />
     </>
   );
 };
 
-export default FrontComp;
+export default Testimonials;

@@ -1,0 +1,21 @@
+
+
+.imagecontainer {
+    display: flex;
+    width: 300rem;
+    gap: 2rem;
+    overflow: hidden;
+    animation: slide 25s linear infinite;
+    
+  
+  }
+  
+  @keyframes slide {
+    from {
+      transform: translateX(40%);
+    }
+    to {
+      transform: translateX(-30%);
+    }
+  }
+  

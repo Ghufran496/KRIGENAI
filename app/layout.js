@@ -1,7 +1,6 @@
-//import { Inter } from "next/font/google";
 import "./globals.css";
+import Footer from "@/components/Global/Footer";
 
-//const inter = Inter({ subsets: ["latin"] });
 
 import Link from "next/link";
 import Image from "next/image";
@@ -12,17 +11,22 @@ export const metadata = {
   description: "KRIGEN.AI",
 };
 
+//style={{backgroundColor:"#AA3FFF33"}}
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className= "bg-slate-200">
         <div className="flex justify-center items-center">
-        <header className="flex justify-around items-center rounded-full w-11/12 my-6 text-lg bg-slate-100 py-4">
+        <header className="flex justify-around items-center rounded-full w-11/12 my-6 text-lg bg-slate-100 py-4" style={{
+          position:"sticky",
+          zIndex:"10",
+         
+        }}>
           <h1>
-            <Link href="/home">
+            <Link href="/">
               <Image
                 src={logo}
-                alt="Picture of the author"
+                alt="Picture of the KRIGEN LOGO"
                 width={150}
                 height={150}
                 quality={100}
@@ -58,6 +62,7 @@ export default function RootLayout({ children }) {
         </header>
         </div>
         {children}
+        <Footer />
       </body>
     </html>
   );

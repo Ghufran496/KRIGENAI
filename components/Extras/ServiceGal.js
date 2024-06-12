@@ -70,10 +70,9 @@ const ServicesGallery = () => {
             quality={100}
             sizes={"100vw"}
           />
-        <h1 className="text-2xl font-bold text-center">CRM & Sales Pipeline</h1>
+        <h1 className="text-2xl font-bold text-center">Automated Lead Nurturing</h1>
         <h3 className=" text-gray-600 text-center">
-          Keep your clients close, and your data closer with our automated CRM &
-          Sales Pipeline. Never lose a contact again.
+        Nothing better for marketing than scheduling your social media posts for the entire month, all with one click!
         </h3>
       </div>
       <div className="flex justify-center items-center flex-col gap-4 px-6 py-6 rounded-3xl" style={{ boxShadow: "0px 2px 30px 0px rgba(170, 63, 255, 0.2)" }}>
@@ -86,11 +85,10 @@ const ServicesGallery = () => {
             sizes={"100vw"}
           />
         <h1 className="text-2xl font-bold text-center">
-          Website & Funnel Builder
+        Automated Lead Conversion
         </h1>
         <h3 className=" text-gray-600 text-center">
-          Build a website or funnel like a pro. Designing your website and
-          funnels have never been easier.
+        Tailored by our expert sales & marketing teams designed to drive sales & appointment conversions, automatically
         </h3>
       </div>
       <div className="flex justify-center items-center flex-col gap-4 px-6 py-6 rounded-3xl" style={{ boxShadow: "0px 2px 30px 0px rgba(170, 63, 255, 0.2)" }}>
@@ -102,10 +100,9 @@ const ServicesGallery = () => {
             quality={100}
             sizes={"100vw"}
           />
-        <h1 className="text-2xl font-bold text-center">Automated Marketing</h1>
+        <h1 className="text-2xl font-bold text-center">All-In-One Conversations</h1>
         <h3 className=" text-gray-600 text-center">
-          Our done for you marketing automations can run for weeks, years, and
-          even for a lifetime. No prospect goes to waste.
+        SMS, Email, Social Media DMs, WhatsApp, Slack. Have conversations with all of your clients and manage them in one place.
         </h3>
       </div>
 
@@ -118,10 +115,9 @@ const ServicesGallery = () => {
             quality={100}
             sizes={"100vw"}
           />
-        <h1 className="text-2xl font-bold text-center">CRM & Sales Pipeline</h1>
+        <h1 className="text-2xl font-bold text-center">Social Media Scheduler​</h1>
         <h3 className=" text-gray-600 text-center">
-          Keep your clients close, and your data closer with our automated CRM &
-          Sales Pipeline. Never lose a contact again.
+        Nothing better for marketing than scheduling your social media posts for the entire month, all with one click!
         </h3>
       </div>
       <div className="flex justify-center items-center flex-col gap-4 px-6 py-6 rounded-3xl" style={{ boxShadow: "0px 2px 30px 0px rgba(170, 63, 255, 0.2)" }}>
@@ -134,11 +130,10 @@ const ServicesGallery = () => {
             sizes={"100vw"}
           />
         <h1 className="text-2xl font-bold text-center">
-          Website & Funnel Builder
+        Calendar Integration
         </h1>
         <h3 className=" text-gray-600 text-center">
-          Build a website or funnel like a pro. Designing your website and
-          funnels have never been easier.
+        Say goodbye to Calendly or any other calendar software out there. You can create unlimited calendars within SproutCloud.
         </h3>
       </div>
       <div className="flex justify-center items-center flex-col gap-4 px-6 py-6 rounded-3xl" style={{ boxShadow: "0px 2px 30px 0px rgba(170, 63, 255, 0.2)" }}>
@@ -150,10 +145,9 @@ const ServicesGallery = () => {
             quality={100}
             sizes={"100vw"}
           />
-        <h1 className="text-2xl font-bold text-center">Automated Marketing</h1>
+        <h1 className="text-2xl font-bold text-center">Automated Payments</h1>
         <h3 className=" text-gray-600 text-center">
-          Our done for you marketing automations can run for weeks, years, and
-          even for a lifetime. No prospect goes to waste.
+        Integrate with payment providers like Stripe, PayPal, & more. Automate your invoices & proposals to be sent for you.
         </h3>
       </div>
     </div>

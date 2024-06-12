@@ -49,15 +49,22 @@ const HeaderComp = () => {
 
           <div className="hidden lg:flex lg:gap-x-12">
             <h2 className="text-gray-600 hover:text-black">
-              <Link href="#sec1">Watch Demo</Link>
+              <Link
+                href="https://youtu.be/FXm8718dm3k?si=CGocdPMp1W8Gziny"
+                target="_blank"
+              >
+                Watch Demo
+              </Link>
             </h2>
 
             <h2 className="pl-4 text-gray-600 hover:text-black">
-              <Link href="#sec1">Pricing</Link>
+              <Link href="/#Pricing">Pricing</Link>
             </h2>
 
             <h2 className="text-gray-600 hover:text-black">
-              <Link href="#sec1">Book Call</Link>
+              <Link href="https://krigen.ai/strategy-session" target="_blank">
+                Book Call
+              </Link>
             </h2>
           </div>
           <div className="hidden justify-center  sm:flex sm:flex-1 lg:justify-end">
@@ -113,7 +120,10 @@ const HeaderComp = () => {
       )}
       {mobileMenuOpen && (
         <div className="lg:hidden" role="dialog" aria-modal="true">
-          <div className="fixed inset-0" onClick={() => setMobileMenuOpen(false)}></div>
+          <div
+            className="fixed inset-0"
+            onClick={() => setMobileMenuOpen(false)}
+          ></div>
           <div
             className="fixed inset-y-0 right-0 w-full mt-6 h-96 overflow-y-auto bg-pink-50 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10"
             style={{
@@ -123,7 +133,7 @@ const HeaderComp = () => {
             }}
           >
             <div className="flex items-center justify-between">
-              <Link href="/">
+              <Link href="/" onClick={() => setMobileMenuOpen(false)}>
                 <Image
                   src={logo}
                   alt="Picture of the KRIGEN LOGO"
@@ -163,19 +173,22 @@ const HeaderComp = () => {
               <div className="-my-6 divide-y divide-gray-500/10">
                 <div className="space-y-2 py-6">
                   <a
-                    href="#"
+                    href="https://www.youtube.com/watch?v=FXm8718dm3k"
+                    target="_blank"
                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >
                     Watch Demo
                   </a>
                   <a
-                    href="#"
+                    href="/#Pricing"
+                    onClick={() => setMobileMenuOpen(false)}
                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >
                     Pricing
                   </a>
                   <a
-                    href="#"
+                    href="https://krigen.ai/strategy-session"
+                    target="_blank"
                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >
                     Book Call

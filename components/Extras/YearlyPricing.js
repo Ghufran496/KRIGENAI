@@ -1,12 +1,12 @@
 import Link from "next/link";
 
-const PricingExtr = () => {
+const YearlyPricing = () => {
   return (
     <div className="flex flex-col justify-center items-center gap-10 sm:flex-row">
       <div className="flex flex-col gap-16 px-6 py-6 bg-white w-80 h-auto rounded-2xl shadow-2xl shadow-zinc-400">
         <div className="flex flex-col gap-2">
           <h2 className="font-semibold text-lg">Standard</h2>
-          <h1 className="font-bold text-3xl">$97</h1>
+          <h1 className="font-bold text-3xl underline">$970</h1>
           <h3 className="text-gray-600 text-base">Software Included</h3>
         </div>
         <div className="flex flex-col gap-3 text-base">
@@ -49,23 +49,24 @@ const PricingExtr = () => {
         </div>
         <div className="mt-20 flex justify-center items-center">
           <Link
-            href="https://buy.stripe.com/14k14V0ii16JgBacMQ"
+            href="https://buy.stripe.com/3csbJzaWW02F98IeUZ"
             target="_blank"
           >
+            {" "}
             <button
               type="submit"
               className="rounded-xl bg-gradient-to-r bg-black px-20 py-2 text-lg font-medium text-white shadow-sm hover:from-indigo-500 hover:via-purple-500 hover:to-orange-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
               Get Started
-            </button>
+            </button>{" "}
           </Link>
         </div>
       </div>
 
-      <div className="flex flex-col gap-16 px-6 py-6 bg-white w-80 h-full rounded-2xl border-black border-2 shadow-2xl shadow-zinc-600">
+      <div className="flex flex-col gap-16 px-6 py-6 bg-white w-80 h-full rounded-2xl shadow-2xl shadow-zinc-600">
         <div className="flex flex-col gap-2">
           <h2 className="font-semibold text-lg">Enhanced</h2>
-          <h1 className="font-bold text-3xl">$297</h1>
+          <h1 className="font-bold text-3xl underline">$2970</h1>
           <h3 className="text-gray-600 text-base">
             Software, AI & Automations
           </h3>
@@ -110,17 +111,18 @@ const PricingExtr = () => {
             Builder
           </p>
         </div>
-        <div className="mt-0 flex justify-center items-center">
+        <div className="mt-5 flex justify-center items-center">
           <Link
-            href="https://buy.stripe.com/eVa14VaWW5mZ5Ww006"
+            href="https://buy.stripe.com/bIY3d33uu8zbdoY007"
             target="_blank"
           >
+            {" "}
             <button
               type="submit"
               className="rounded-xl bg-gradient-to-r bg-black px-20 py-2 text-lg font-medium text-white shadow-sm hover:from-indigo-500 hover:via-purple-500 hover:to-orange-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
               Get Started
-            </button>
+            </button>{" "}
           </Link>
         </div>
       </div>
@@ -128,7 +130,7 @@ const PricingExtr = () => {
       <div className="flex flex-col gap-16 px-6 py-6 bg-white w-80 h-full rounded-2xl shadow-2xl shadow-zinc-600">
         <div className="flex flex-col gap-2">
           <h2 className="font-semibold text-lg">Elite Plan</h2>
-          <h1 className="font-bold text-3xl">$497</h1>
+          <h1 className="font-bold text-3xl underline">$4970</h1>
           <h3 className="text-gray-600 text-base">WhiteLabel Solutions</h3>
         </div>
         <div className="flex flex-col gap-3 text-base">
@@ -159,7 +161,7 @@ const PricingExtr = () => {
         </div>
         <div className="mt-24 flex justify-center items-center">
           <Link
-            href="https://buy.stripe.com/28o3d3ghgaHj2KkcMU"
+            href="https://buy.stripe.com/dR6dRHaWW16JgBaaEN"
             target="_blank"
           >
             <button
@@ -175,4 +177,4 @@ const PricingExtr = () => {
   );
 };
 
-export default PricingExtr;
+export default YearlyPricing;

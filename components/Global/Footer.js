@@ -27,11 +27,11 @@ const Footer = () => {
             <li>
               <ul className="flex justify-center items-center gap-0 sm:gap-2">
                 <li className="hover:text-blue-500">
-                  <Link href="/">Terms & Conditions</Link>
+                  <Link href="https://terms-and-conditions.krigen.ai/terms-and-conditions" target="_blank">Terms & Conditions</Link>
                 </li>
                 <li>/</li>
                 <li className="hover:text-blue-500">
-                  <Link href="/">Privacy Policy</Link>
+                  <Link href="https://privacy-policy.krigen.ai/privacy-policy" target="_blank">Privacy Policy</Link>
                 </li>
                 <li>/</li>
                 <li className="hover:text-blue-500">

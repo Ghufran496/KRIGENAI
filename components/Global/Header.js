@@ -62,7 +62,7 @@ const HeaderComp = () => {
             </h2>
 
             <h2 className="text-gray-600 hover:text-black">
-              <Link href="https://krigen.ai/strategy-session" target="_blank">
+              <Link href="https://calendar.krigen.ai/" target="_blank">
                 Book Call
               </Link>
             </h2>
@@ -187,7 +187,7 @@ const HeaderComp = () => {
                     Pricing
                   </a>
                   <a
-                    href="https://krigen.ai/strategy-session"
+                    href="https://calendar.krigen.ai/"
                     target="_blank"
                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >

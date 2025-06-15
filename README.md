@@ -1,8 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# KRIGENAI - Automated Marketing Platform
 
-## Getting Started
+KRIGENAI is a modern web application built for businesses seeking to streamline their marketing efforts through automation. This platform offers comprehensive lead automation and conversion tools designed to enhance marketing efficiency and drive business growth.
 
-First, run the development server:
+## 🚀 Tech Stack
+
+- **Frontend Framework**: [Next.js 14](https://nextjs.org/)
+- **UI Library**: [React 18](https://reactjs.org/)
+- **Styling**: [TailwindCSS](https://tailwindcss.com/) with custom gradients
+- **Image Optimization**: Sharp for optimized image delivery
+- **Development Tools**: ESLint for code quality
+
+## ✨ Key Features
+
+- **Automated Marketing Solutions**: Comprehensive tools for lead generation and conversion
+- **Responsive Design**: Fully responsive interface that works across all devices
+- **Interactive Components**: Dynamic pricing toggles, image sliders, and animations
+- **Service Showcases**: Visual galleries highlighting platform capabilities
+- **Flexible Pricing Plans**: Monthly and yearly subscription options with discount incentives
+
+## 📋 Project Structure
+
+- **Components**: Modular architecture with reusable components
+  - **Sections**: Main page sections (FrontComp, ServicesComp, Testimonials, Pricing, CustomPlanComp)
+  - **Global**: Shared components used throughout the application
+  - **Extras**: Supporting components like ImageSlider, ServiceGallery, etc.
+
+## 🛠️ Getting Started
+
+First, install the dependencies:
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
@@ -10,15 +45,45 @@ npm run dev
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the application.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🔧 Build and Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+To build the application for production:
+
+```bash
+npm run build
+# or
+yarn build
+# or
+pnpm build
+```
+
+To start the production server:
+
+```bash
+npm run start
+# or
+yarn start
+# or
+pnpm start
+```
+
+## 📱 Responsive Design
+
+The application is fully responsive and optimized for:
+- Desktop computers
+- Tablets
+- Mobile devices
+
+## 🎨 Design Features
+
+- Modern UI with gradient accents
+- Interactive components
+- Smooth animations and transitions
+- Optimized images and visual elements
 
 ## Learn More
 
